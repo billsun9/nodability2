@@ -1,0 +1,23 @@
+.PageContent {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  font-size: larger;
+  margin-right: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.logout {
+  display: flex;
+  margin-top: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.logout:hover {
+  color: #ff4d4f;
+  transition: ease all 0.3s;
+}
